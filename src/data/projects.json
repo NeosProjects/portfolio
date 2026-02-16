@@ -1,0 +1,36 @@
+[
+  {
+    "id": "nailit",
+    "name": "<span class='loading-text'>Nailit</span> - SaaS gestion d'entreprise",
+    "cover": "/me.jpg",
+    "description": "C'est un super <bold>saas</bold> trop génial. Lorem ipsum et mais très gros pas vraiment mais chaises va aller correctement.",
+    "techs": ["vuejs", "tailwindcss"],
+    "stats": [
+      {
+        "name": "Nombre de client",
+        "number": "56000"
+      },
+      {
+        "name": "Stats",
+        "number": "+150%"
+      }
+    ]
+  },
+  {
+    "id": "nailit",
+    "name": "<span class='loading-text'>Nailit</span> - SaaS gestion d'entreprise",
+    "cover": "/me.jpg",
+    "description": "C'est un super <bold>saas</bold> trop génial. Lorem ipsum et mais très gros pas vraiment mais chaises va aller correctement.",
+    "techs": ["vuejs", "tailwindcss"],
+    "stats": [
+      {
+        "name": "Nombre de client",
+        "number": "56000"
+      },
+      {
+        "name": "Stats",
+        "number": "+150%"
+      }
+    ]
+  }
+]

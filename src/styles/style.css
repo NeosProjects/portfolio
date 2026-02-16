@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-secondary-light: rgb(249, 249, 213);
+  --color-secondary: rgb(246, 225, 170);
+  --color-secondary-dark: rgb(237, 205, 126);
+}
+
+:root {
+  --color-secondary-light: rgb(249, 249, 213);
+  --color-secondary: rgb(246, 225, 170);
+  --color-secondary-dark: rgb(237, 205, 126);
+
+  --text: hsl(0, 0, 0);
+  --text-muted: #383838;
+}
+
+body {
+  background-color: var(--color-secondary-light);
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+bold {
+  font-weight: bold;
+}
+
+button {
+  background-color: #94ff5f;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.text{
+  color: var(--text);
+}
+
+.text-muted{
+  color: var(--text-muted);
+}
+
+.px {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .px {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 840) {
+  .px {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .px {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+}
+
+@media (min-width: 1540) {
+  .px {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+}
+
+.base-card {
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  background-color: var(--color-secondary);
+}

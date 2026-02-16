@@ -1,0 +1,45 @@
+[
+  {
+    "type": "work",
+    "name": "Autonome",
+    "icon": "/icons/vue.png",
+    "description": "Je suis autonome de nature la majorité de"
+  },
+  {
+    "type": "work",
+    "name": "Autonome",
+    "icon": "/icons/vue.png",
+    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+  },
+  {
+    "type": "work",
+    "name": "Autonome",
+    "icon": "/icons/vue.png",
+    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+  },
+  {
+    "type": "work",
+    "name": "Autonome",
+    "icon": "/icons/vue.png",
+    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+  },
+  {
+    "type": "personnal",
+    "name": "Ntm",
+    "icon": "/icons/vue.png",
+    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>",
+    "cols": 2
+  },
+  {
+    "type": "personnal",
+    "name": "Ntm",
+    "icon": "/icons/vue.png",
+    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+  },
+  {
+    "type": "personnal",
+    "name": "Ntm",
+    "icon": "/icons/vue.png",
+    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+  }
+]
