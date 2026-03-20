@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-secondary-light: rgb(249, 249, 213);
-  --color-secondary: rgb(246, 225, 170);
-  --color-secondary-dark: rgb(237, 205, 126);
+  --color-secondary-dark: hsl(270, 40%, 6%);
+  --color-secondary: hsl(275, 45%, 10%);
+  --color-secondary-light: hsl(280, 50%, 16%);
 }
 
 :root {
-  --color-secondary-light: rgb(249, 249, 213);
-  --color-secondary: rgb(246, 225, 170);
-  --color-secondary-dark: rgb(237, 205, 126);
+  --color-secondary-dark: hsl(270, 40%, 3%);
+  --color-secondary: hsl(275, 45%, 10%);
+  --color-secondary-light: hsl(280, 50%, 16%);
 
-  --text: hsl(0, 0, 0);
-  --text-muted: #383838;
+  --text: hsl(0, 0%, 96%);
+  --text-muted: hsl(0, 0%, 86%);
 }
 
 body {
@@ -41,13 +41,6 @@ h5 {
 
 bold {
   font-weight: bold;
-}
-
-button {
-  background-color: #94ff5f;
-  width: fit-content;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
 }
 
 .text{

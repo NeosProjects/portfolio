@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Title -->
-    <h3>Mes projets</h3>
+    <h3 class="text">Mes projets</h3>
     <div class="flex flex-col gap-8">
       <ProjectCard v-for="(project, idx) in projects" :key="project.id" :project="project" :even="idx % 2 != 0" />
     </div>

@@ -1,16 +1,16 @@
 <template>
   <div>
-    <h3>Mes valeurs</h3>
-    <h4 class="ml-2">Au travail</h4>
+    <h3 class="text">Mes valeurs</h3>
+    <h4 class="ml-2 text">Au travail</h4>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div class="base-card rounded-3xl flex flex-col items-center" v-for="value in workValues" :key="value.name">
         <img :src="value.icon" class="w-16 h-16 mb-4" />
-        <h5>{{ value.name }}</h5>
-        <p class="text-sm" v-html="value.description"></p>
+        <h5 class="text">{{ value.name }}</h5>
+        <p class="text-sm text-muted" v-html="value.description"></p>
       </div>
     </div>
 
-    <h4 class="ml-2 mt-4">Personnel</h4>
+    <h4 class="ml-2 mt-4 text">Personnel</h4>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div
         class="base-card rounded-3xl flex flex-col items-center col-span-1"
@@ -19,8 +19,8 @@
         :key="value.name"
       >
         <img :src="value.icon" class="w-16 h-16 mb-4" />
-        <h5>{{ value.name }}</h5>
-        <p class="text-sm" v-html="value.description"></p>
+        <h5 class="text">{{ value.name }}</h5>
+        <p class="text-sm text-muted" v-html="value.description"></p>
       </div>
     </div>
   </div>

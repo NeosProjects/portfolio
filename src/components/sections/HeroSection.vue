@@ -12,15 +12,15 @@
       <!-- Me -->
       <div class="flex items-center gap-4">
         <img src="/me.jpg" class="w-12 h-12 rounded-full"/>
-        <span class="italic font-bold text-muted">Bougio Néo</span>
+        <span class="italic font-bold text">Bougio Néo</span>
       </div>
 
       <!-- Message -->
-      <h1 class="text-5xl md:text-7xl font-bold text-left">
-        Développeur fullstack pour tout le <span class="loading-text">monde</span>
+      <h1 class="text-5xl md:text-7xl font-bold text text-left">
+        Développeur fullstack <span class="loading-text">passioné</span>
       </h1>
-      <p class="text-lg md:text-2xl">
-        Bonjour, je suis Néo un gros connard de dev qui aime bien faire du dev et des sites web qui aimes bien faire caca sur paqui et voilà je sais pas quoi dire d'autre mais je dois quand même écrire.
+      <p class="text-lg md:text-2xl text-muted">
+        Je m'appelle Néo, développeur fullstack. J'accompagne entreprises et particuliers dans la création de solutions web modernes, performantes et accessibles!
       </p>
     </div>
   </div>
