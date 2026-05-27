@@ -3,13 +3,18 @@
     "id": "vuejs",
     "icon": "/icons/vue.png",
     "name": "Vue.js",
-    "description": "Framwork de création de site web",
-    "link": "/"
+    "description": "Framwork de création de site web"
   },
   {
     "id": "tailwindcss",
-    "icon": "/me.jpg",
+    "icon": "/icons/tailwindcss.svg",
     "name": "Tailwind CSS",
     "description": "Facilitation du css"
+  },
+  {
+    "id": "supabase",
+    "icon": "/icons/supabase.svg",
+    "name": "Supabase",
+    "description": "Base de données PostgreSQL"
   }
 ]

@@ -1,45 +1,51 @@
 [
   {
     "type": "work",
-    "name": "Autonome",
+    "name": "Autonomie",
     "icon": "/icons/vue.png",
-    "description": "Je suis autonome de nature la majorité de"
+    "description": "Je suis autonome de nature. La majorité de mes skills, je les ai appris <bold>seul</bold>"
   },
   {
     "type": "work",
-    "name": "Autonome",
+    "name": "Rigeur",
     "icon": "/icons/vue.png",
-    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+    "description": "J'accorde une grande importance à la <bold>qualité</bold> et à la rigueur dans mon travail"
   },
   {
     "type": "work",
-    "name": "Autonome",
+    "name": "Curiosité",
     "icon": "/icons/vue.png",
-    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+    "description": "Je suis constamment en quête de <bold>nouvelles technologies</bold> et de meilleures pratiques"
   },
   {
     "type": "work",
-    "name": "Autonome",
+    "name": "Collaboration",
     "icon": "/icons/vue.png",
-    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+    "description": "Je crois au <bold>travail d'équipe</bold> et à l'importance de bien communiquer"
   },
   {
     "type": "personnal",
-    "name": "Ntm",
+    "name": "Ecologie",
     "icon": "/icons/vue.png",
-    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>",
+    "description": "Je me soucie de l'environnement et je m'efforce de réduire mon <bold>impact écologique</bold>",
     "cols": 2
   },
   {
     "type": "personnal",
-    "name": "Ntm",
+    "name": "Données personnel",
     "icon": "/icons/vue.png",
-    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+    "description": "Chacun devrait avoir le droit d'accès à ses données et ne pas partager certaines si non nécessaire"
   },
   {
     "type": "personnal",
-    "name": "Ntm",
+    "name": "Bienveillance",
     "icon": "/icons/vue.png",
-    "description": "Je suis autonome de nature la majorité de mes skills je l'ai ait appris <bold>seul</bold>"
+    "description": "J'accorde de l'importance aux relations humaines et à l'<bold>entraide</bold> mutuelle"
+  },
+  {
+    "type": "personnal",
+    "name": "Passion",
+    "icon": "/icons/vue.png",
+    "description": "Qu'il s'agisse de code ou de loisirs, je mets ma <bold>passion</bold> dans tout ce que je fais"
   }
 ]

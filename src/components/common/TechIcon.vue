@@ -8,7 +8,7 @@
     <div v-if="hovered" class="absolute left-3/4 top-3/4 bg-secondary-light border border-secondary-dark w-75 shadow-md p-4 rounded-3xl z-10">
       <div class="font-bold whitespace-nowrap text">{{ tech.name }}</div>
       <p class="text-muted" v-html="tech.description"></p>
-      <div class="mt-4 text">Cliquez pour en savoir plus</div>
+      <!-- <div class="mt-4 text">Cliquez pour en savoir plus</div> -->
     </div>
   </div>
 </template>

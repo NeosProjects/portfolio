@@ -1,35 +1,19 @@
 [
   {
     "id": "nailit",
-    "name": "<span class='loading-text'>Nailit</span> - SaaS gestion d'entreprise",
-    "cover": "/me.jpg",
-    "description": "C'est un super <bold>saas</bold> trop génial. Lorem ipsum et mais très gros pas vraiment mais chaises va aller correctement.",
-    "techs": ["vuejs", "tailwindcss"],
+    "name": "<span class='loading-text'>Nailit</span> - SaaS de gestion de TPE/PME",
+    "cover": "/projects/nailit.png",
+    "link": "https://www.nailit-planning.com/",
+    "description": "Nailit est une application SaaS dédiée à la gestion d'entreprise pour les TPE et PME. Elle propose des modules de gestion de projet, de ressources humaines, de planning (avec la possibilité de planifier sur le long terme) et de trésorerie. L'interface simple et moderne permet de centraliser l'organisation de l'équipe, de suivre l'avancement des tâches et de gérer efficacement les ressources et la trésorerie. Nailit facilite la collaboration et l'anticipation grâce à un planning flexible, adapté aux besoins des structures en croissance.",
+    "techs": ["vuejs", "tailwindcss", "supabase"],
     "stats": [
       {
-        "name": "Nombre de client",
-        "number": "56000"
+        "name": "Clients",
+        "number": "150"
       },
       {
-        "name": "Stats",
-        "number": "+150%"
-      }
-    ]
-  },
-  {
-    "id": "nailit",
-    "name": "<span class='loading-text'>Nailit</span> - SaaS gestion d'entreprise",
-    "cover": "/me.jpg",
-    "description": "C'est un super <bold>saas</bold> trop génial. Lorem ipsum et mais très gros pas vraiment mais chaises va aller correctement.",
-    "techs": ["vuejs", "tailwindcss"],
-    "stats": [
-      {
-        "name": "Nombre de client",
-        "number": "56000"
-      },
-      {
-        "name": "Stats",
-        "number": "+150%"
+        "name": "D'ancienneté",
+        "number": "2 ans"
       }
     ]
   }

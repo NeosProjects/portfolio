@@ -2,7 +2,7 @@
   <div class="pb-8 px flex flex-col gap-16 bg-secondary-dark">
     <HeroSection />
     <ProjectsSection />
-    <ValuesSection />
+    <!-- <ValuesSection /> -->
     <FooterSection />
   </div>
 </template>

@@ -33,14 +33,10 @@ import valuesData from '@/data/values.json';
 export default {
   data(){
     return {
-      workValues: [],
-      personnalValues: []
+      workValues: valuesData.filter((v) => v.type == "work"),
+      personnalValues: valuesData.filter((v) => v.type == "personnal")
     }
   },
-  mounted(){
-    this.workValues = valuesData.filter((v) => v.type == "work");
-    this.personnalValues = valuesData.filter((v) => v.type == "personnal");
-  }
 }
 
 </script>

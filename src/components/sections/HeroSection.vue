@@ -2,9 +2,15 @@
   <div class="flex flex-col items-center">
     <!-- Icons -->
     <div class="flex justify-end items-center gap-4 py-4 text-muted w-full">
-      <IconMaterialSymbolsMailOutline width="32" height="32" />
-      <IconMdiGithub width="28" height="28"/>
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="28" height="28" viewBox="0 0 24 24"><path fill="#000000" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" /></svg>
+      <a href="mailto:neo.bougio@proton.me" class=" cursor-pointer flex items-center hover:opacity-80 transition">
+        <Icon size="32"><Mail /></Icon>
+      </a>
+      <a href="https://github.com/NeosProjects" target="_blank" rel="noopener noreferrer" class=" cursor-pointer flex items-center hover:opacity-80 transition">
+        <Icon size="32"><BrandGithub /></Icon>
+      </a>
+      <a href="https://www.linkedin.com/in/n%C3%A9o-bougio-ba6672306/" target="_blank" rel="noopener noreferrer" class=" cursor-pointer flex items-center hover:opacity-80 transition">
+        <Icon size="32"><BrandLinkedin /></Icon>
+      </a>
     </div>
 
     <!-- Message -->
@@ -28,13 +34,13 @@
 
 <script>
 
-import IconMaterialSymbolsMailOutline from '~icons/material-symbols/mail-outline'
-import IconMdiGithub from '~icons/mdi/github'
+import { BrandGithub, BrandLinkedin, Mail } from '@vicons/tabler';
 
 export default{
   components:{
-    IconMaterialSymbolsMailOutline,
-    IconMdiGithub
+    BrandGithub,
+    BrandLinkedin,
+    Mail
   }
 }
 

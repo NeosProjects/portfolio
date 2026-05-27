@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-secondary-dark: hsl(270, 40%, 6%);
-  --color-secondary: hsl(275, 45%, 10%);
-  --color-secondary-light: hsl(280, 50%, 16%);
+  --color-secondary-dark: hsl(210, 25%, 5%);
+  --color-secondary: hsl(208, 21%, 12%);
+  --color-secondary-light: hsl(210, 18%, 20%);
 }
 
 :root {
-  --color-secondary-dark: hsl(270, 40%, 3%);
-  --color-secondary: hsl(275, 45%, 10%);
-  --color-secondary-light: hsl(280, 50%, 16%);
+  --color-secondary-dark: hsl(210, 25%, 5%);
+  --color-secondary: hsl(208, 21%, 12%);
+  --color-secondary-light: hsl(210, 18%, 20%);
 
   --text: hsl(0, 0%, 96%);
   --text-muted: hsl(0, 0%, 86%);
